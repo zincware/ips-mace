@@ -50,6 +50,8 @@ class MACE(MLModel):
         y=["loss", "rmse_e_per_atom", "rmse_f"],
     )
 
+    _module_ = "ips_mace"
+
     def _post_load_(self) -> None:
         if self.device is None:
             self.device = "cuda" if torch.cuda.is_available() else "cpu"
