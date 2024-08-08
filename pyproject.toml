@@ -1,0 +1,3 @@
+[tool.poetry.group.mace.dependencies]
+mace-torch = "^0.3.4"
+torch-dftd = "^0.4.0"
