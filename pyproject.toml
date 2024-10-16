@@ -6,10 +6,10 @@ authors = ["zincwarecode <zincwarecode@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.12"
-mace-torch = "^0.3.4"
+python = ">=3.10,<3.13"
+mace-torch = "^0.3.6"
 torch-dftd = "^0.4.0"
-ipsuite = "^0.1.3"
+zntrack = "0.8.0a3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
